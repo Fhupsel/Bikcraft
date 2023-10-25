@@ -92,6 +92,9 @@
     margin-bottom: 60px;
     text-decoration: underline;
   }
+  .tecnologia a:hover:after {
+    width: 0px;
+  }
 }
 
 @media (max-width: 600px) {
