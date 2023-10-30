@@ -14,7 +14,10 @@ h3,
 h4,
 ul,
 blockquote,
-p {
+p,
+dl,
+dd,
+dt {
   margin: 0px;
 }
 
