@@ -8,6 +8,15 @@ body {
   color: #111111;
 }
 
+label {
+  text-transform: capitalize;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
