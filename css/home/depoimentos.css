@@ -62,6 +62,11 @@
 @media (max-width: 600px) {
   .depoimento-conteudo p::before,
   .depoimento-conteudo p::after {
-    content: "";
+    font-size: 2rem;
+    position: relative;
+  }
+  .depoimento-conteudo p::before {
+    left: 0;
+    top: 0px;
   }
 }
