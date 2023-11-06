@@ -17,6 +17,16 @@
   gap: 20px;
 }
 
+.bicicleta-img img:not(:first-child) {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .bicicleta-img img:not(:first-child) {
+    cursor: initial;
+  }
+}
+
 .bicicleta-img img {
   flex: 1;
   min-width: 200px;

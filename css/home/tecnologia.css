@@ -1,6 +1,6 @@
 .tecnologia-bg {
   background-color: var(--cor-11);
-  /* IMAGEM VASANDO (- = PARA BAIXO) */
+  /* IMAGEM VAZANDO (- = PARA BAIXO) */
   box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
 }
 
@@ -30,7 +30,7 @@
 
 .tecnologia a {
   display: inline-block;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   color: var(--cor-p1);
   text-transform: uppercase;
   font: 500 1.5rem/1.5 "Poppins", sans-serif;
@@ -89,7 +89,6 @@
     display: none;
   }
   .tecnologia a {
-    margin-bottom: 60px;
     text-decoration: underline;
   }
   .tecnologia a:hover:after {
